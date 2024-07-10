@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+    <h3 class="titulo">Recomendanos</h3>
+    <h4 class="reclamo"> Si ves que no esta tu banda favorita de Power metal en la pagina. Nos gustaria que te comuniques con nosotros y con gusto le agregamos a al web, completa el formulario para que nos podamos comunicar con vos.
+    </h4>
+    <form class="formulario">
+        <div class="form">
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" type="text" required placeholder="cosme fulanito">
+    </div>
+        <div class="form">
+    <label for="email"> Email: </label>
+        <input id="email" type="email" required placeholder="ejemplo@ejemplo.com"/>
+        </div>
+        <div class="form">
+        <label for="telefono"> Telefono: </label>
+        <input id="telefono" required type="tel" placeholder="3765xxxxxxx" />
+        </div>
+
+        <div class="form">
+        <label for="provincia" >provincia:</label>
+        <select required>
+            <option value="Misiones" selected>Misiones</option>
+            <option value="Corrientes">Corrientes</option>
+            <option value="entre rios">Entre Rios</option>
+            <option value="chaco">Chaco</option>
+            <option value="formosa">Formosa</option>
+            <option value="jujuy">Jujuy</option>
+            <option value="salta">Salta</option>
+            <option value="sgo">Santiago Del Estero</option>
+            <option value="cordoba">Cordoba</option>
+            <option value="tucuman">Tucuman</option>
+            <option value="rioja">La Rioja</option>
+            <option value="san luis">San Luis</option>
+            <option value="mendoza">Mendoza</option>
+            <option value="Pr">La Pampa</option>
+            <option value="chubut">Chubut</option>
+            <option value="neuquen">Neuquen</option>
+            <option value="rionegro">Rio Negro</option>
+            <option value="santaCruz">Santa Cruz</option>
+            <option value="santaFe">Santa Fe</option>
+            <option value="bsas">Buenos Aires</option>
+            <option value="tfuego">Tierra Del Fuego</option>
+            <option value="caba">Ciudad Autonoma de Buenos Aires</option>
+            <option value="catamarca">Catamarca</option>
+            <option value="sanjuan">San Juan</option>
+        </select>
+        </div>
+
+        <div class="form">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" required></textarea>
+        <label form type="enviar"></label>
+        <input class="boton" id="enviar" type="submit" value="Enviar">
+    <button class="buton"><a href="index.html">Inicio</a></button>
+    
+        <div class="form" >
+            <label form="terminoycondiciones" class="terminos"> <a href="./tercon.html" class="condiciones"> Aceptar terminos y condiciones</a>
+                <input id="terminoycondiciones" type="checkbox" required>
+            </label>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
